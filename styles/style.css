@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: brown;
+  position: relative;
+  animation-name: moving;
+  animation-delay: 5s;
+}
+@keyframes moving {
+  0%,
+  100% {
+    left: 0;
+  }
+  50% {
+    left: 300px;
+  }
+
+  80% {
+    left: 400px;
+  }
+}
